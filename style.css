@@ -1,0 +1,165 @@
+.background_main_opt{
+    background: linear-gradient(to left, #a0b5eb, #c9f0e4);
+    align-items: center;
+    background-size: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+.main_opt{
+
+    margin: 10% auto;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.main_opt h1{
+    text-align: center;
+    font-size: 50px;
+}
+.option{
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+.opt_listening{
+    background: #153362;
+    width: 150px;
+
+    margin-right: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+   
+}
+.opt_reading{
+    background: #ff9500;
+    width: 150px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+   
+}
+.opt_home{
+    background: #153362;
+    width: 150px;
+    margin: 15px 10px 15px 10px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    
+}
+.opt_listening a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.opt_reading a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.opt_home a{
+    text-decoration: none; 
+    font-size: 17px;
+}
+.opt_listening:hover{
+    transform: scale(1.1);
+}
+.opt_reading:hover{
+    transform: scale(1.1);
+}
+.opt_home:hover{
+    transform: scale(1.1);
+}
+table{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+#stt{
+    text-align: center;
+}
+table tbody th{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+table td {
+    border-bottom: 1px solid black;
+}
+.check_err{
+    height: 15px;
+    width: 15px;
+    border: none;
+    background: #153362;
+}
+.time_out{
+    margin: 15px 10px 15px 10px;
+}
+
+.time_out h1 {
+    font-size: 30px;
+   margin-bottom: 0px;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+/*times*/
+.time {
+    border: none;
+    background-color: #ffffff00;
+    font-size: 35px;
+    width: 45px;
+}
+.semicolon {
+    justify-self: center;
+    align-self: center;
+    font-size: 30px;
+    margin: 0;
+}
+#hour {
+    text-align: right;
+}
+#minute {
+    text-align: right;
+}
+#sec {
+    text-align: right;
+}
+
+/*buttons*/
+.btn_time_out{
+    color: #fff;
+    width: 50px;
+    height: 40px;
+    font-size: 17px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.Start {
+    color: #fff;
+    background: rgb(0, 169, 28);
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 10px;
+    border: none;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Reset {
+    color: #fff;
+    background: #ad1a1a;
+    width: 150px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+p{
+    margin-bottom: 0px;
+}
